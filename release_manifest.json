@@ -3,7 +3,7 @@
   "scope": "Probe, patching and monitor code; example cases; saved probe, ablation and model-specific monitor results.",
   "files": {
     ".gitignore": "df13f422ed3056ae46ea81fb75f1ca92c89fdd2de4856b1ae8f9e99d01c58c74",
-    "LICENSE": "16ab0f8bc0fa123ac0dabdc8cb9ff2cccbc56aee8d0ece638b3937dac3780763",
+    "LICENSE": "40402b977e5378c67cc27d33188bc1acab16086186bd3624cc4428fd65f3de10",
     "METHODS.md": "34cff66e02f9f1bcecbf0e1a988716b30c1b5a8a5b0a9a6550a9ff24ccf8b940",
     "README.md": "28be3e365511a5e8ee778703e436c9267a86ee6cc331885927e76f9973fcdc21",
     "data/README.md": "5f3e951003372e67c02dcc4eff5cea69e6f35052ceb3cf4a16f1da2ed247a1dc",
