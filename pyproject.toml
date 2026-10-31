@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cot-oversight-case-studies"
+version = "1.0.0"
+description = "Case-study code for 'Chain-of-Thought Oversight Requires Separate Evidence for Faithfulness and Monitorability' (NeurIPS 2026)."
+license = {text = "MIT"}
+authors = [
+  {name = "Sichao Li"}, {name = "Sai Ma"}, {name = "Xiyang Hu"}, {name = "Chudi Zhong"}, {name = "Tongliang Liu"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scikit-learn>=1.4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+gpu = ["torch>=2.4", "transformers>=4.45,<5", "accelerate>=1,<2", "sentencepiece>=0.2"]
+api = ["openai>=1.55,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src"]

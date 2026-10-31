@@ -1,0 +1,670 @@
+{
+  "deepseek14b": {
+    "labels": {
+      "cybersec_injection_instruct_v2_1144": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_166": "INCORRECT",
+      "cybersec_injection_instruct_v2_916": "CORRECT",
+      "cybersec_injection_instruct_v2_1615": "INCORRECT",
+      "cybersec_injection_instruct_v2_1169": "CORRECT",
+      "cybersec_memory_safety_instruct_39": "INCORRECT",
+      "cybersec_injection_instruct_v2_1714": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1855": "CORRECT",
+      "cybersec_injection_instruct_549": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_1889": "CORRECT",
+      "cybersec_memory_safety_instruct_30": "INCORRECT",
+      "cybersec_injection_instruct_1784": "CORRECT",
+      "cybersec_injection_instruct_v2_1725": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_57": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_12": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_126": "INCORRECT",
+      "cybersec_memory_safety_instruct_169": "INCORRECT",
+      "cybersec_memory_safety_instruct_125": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_137": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1149": "CORRECT",
+      "cybersec_injection_instruct_v2_486": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_155": "CORRECT",
+      "cybersec_injection_instruct_v2_553": "CORRECT",
+      "cybersec_memory_safety_instruct_465": "CORRECT",
+      "cybersec_memory_safety_instruct_70": "INCORRECT",
+      "cybersec_injection_instruct_679": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1192": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_963": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_465": "CORRECT",
+      "cybersec_memory_safety_instruct_62": "INCORRECT",
+      "cybersec_injection_instruct_788": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_173": "INCORRECT",
+      "cybersec_memory_safety_instruct_134": "CORRECT",
+      "cybersec_memory_safety_instruct_148": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_327": "CORRECT",
+      "cybersec_injection_instruct_696": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_398": "CORRECT",
+      "cybersec_injection_instruct_v2_883": "CORRECT",
+      "cybersec_injection_instruct_705": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_294": "INCORRECT",
+      "cybersec_memory_safety_instruct_258": "CORRECT",
+      "cybersec_injection_instruct_v2_692": "CORRECT",
+      "cybersec_injection_instruct_v2_572": "CORRECT",
+      "cybersec_injection_instruct_v2_638": "CORRECT",
+      "cybersec_injection_instruct_717": "INCORRECT",
+      "cybersec_injection_instruct_v2_1816": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_87": "INCORRECT",
+      "cybersec_memory_safety_instruct_362": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_278": "CORRECT",
+      "cybersec_injection_instruct_v2_941": "INCORRECT",
+      "cybersec_injection_instruct_v2_1691": "CORRECT",
+      "cybersec_memory_safety_instruct_427": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_74": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_138": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1806": "CORRECT",
+      "cybersec_memory_safety_instruct_21": "INCORRECT",
+      "cybersec_memory_safety_instruct_283": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_460": "CORRECT",
+      "cybersec_injection_instruct_v2_691": "CORRECT"
+    },
+    "jury": {
+      "cybersec_injection_instruct_v2_1806": "CORRECT",
+      "cybersec_memory_safety_instruct_134": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_278": "CORRECT",
+      "cybersec_injection_instruct_679": "INCORRECT",
+      "cybersec_injection_instruct_705": "INCORRECT",
+      "cybersec_injection_instruct_717": "INCORRECT",
+      "cybersec_injection_instruct_v2_1144": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1615": "INCORRECT",
+      "cybersec_injection_instruct_v2_638": "INCORRECT",
+      "cybersec_injection_instruct_v2_692": "INCORRECT",
+      "cybersec_injection_instruct_v2_916": "INCORRECT",
+      "cybersec_injection_instruct_v2_941": "INCORRECT",
+      "cybersec_injection_instruct_v2_963": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_125": "INCORRECT",
+      "cybersec_memory_safety_instruct_148": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_166": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_169": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_21": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_427": "INCORRECT",
+      "cybersec_memory_safety_instruct_465": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_138": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_465": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_74": "INCORRECT",
+      "cybersec_injection_instruct_v2_1691": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1816": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_572": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_258": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_173": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_398": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_327": "CORRECT",
+      "cybersec_injection_instruct_v2_691": "INCORRECT",
+      "cybersec_injection_instruct_v2_883": "INCORRECT",
+      "cybersec_memory_safety_instruct_30": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_39": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_126": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_137": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_294": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_87": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_1784": "CORRECT",
+      "cybersec_injection_instruct_1889": "CORRECT",
+      "cybersec_injection_instruct_549": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_696": "CORRECT",
+      "cybersec_injection_instruct_788": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1149": "CORRECT",
+      "cybersec_injection_instruct_v2_1169": "CORRECT",
+      "cybersec_injection_instruct_v2_1192": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1714": "CORRECT",
+      "cybersec_injection_instruct_v2_1725": "CORRECT",
+      "cybersec_injection_instruct_v2_1855": "CORRECT",
+      "cybersec_injection_instruct_v2_486": "CORRECT",
+      "cybersec_injection_instruct_v2_553": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_283": "CORRECT",
+      "cybersec_memory_safety_instruct_362": "CORRECT",
+      "cybersec_memory_safety_instruct_460": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_62": "CORRECT",
+      "cybersec_memory_safety_instruct_70": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_12": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_155": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_57": "PARTIALLY_CORRECT"
+    },
+    "seed_offset": 90000,
+    "expected": {
+      "confusion_matrix": [
+        [
+          4,
+          11,
+          1
+        ],
+        [
+          3,
+          7,
+          2
+        ],
+        [
+          8,
+          9,
+          14
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "INCORRECT",
+        "PARTIALLY_CORRECT",
+        "CORRECT"
+      ],
+      "excluded_uncertain_ids": [],
+      "metrics": {
+        "binary": {
+          "baseline": 0.5254237288135594,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.5423728813559322,
+            0.7796610169491526
+          ],
+          "p_one_sided_gt_baseline": 0.1201,
+          "value": 0.6610169491525424
+        },
+        "exact": {
+          "baseline": 0.5254237288135594,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.3050847457627119,
+            0.5423728813559322
+          ],
+          "p_one_sided_gt_baseline": 0.8937,
+          "value": 0.423728813559322
+        },
+        "macro_f1": {
+          "ci_95": [
+            0.272260101010101,
+            0.517461238970673
+          ],
+          "value": 0.40012406947890816
+        },
+        "partial": {
+          "baseline": 0.6271186440677966,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.5423728813559322,
+            0.7288135593220338
+          ],
+          "p_one_sided_gt_baseline": 0.4796,
+          "value": 0.635593220338983
+        }
+      },
+      "n": 59,
+      "per_class": {
+        "CORRECT": {
+          "f1": 0.5833333333333334,
+          "precision": 0.8235294117647058,
+          "recall": 0.45161290322580644,
+          "support": 31
+        },
+        "INCORRECT": {
+          "f1": 0.25806451612903225,
+          "precision": 0.26666666666666666,
+          "recall": 0.25,
+          "support": 16
+        },
+        "PARTIALLY_CORRECT": {
+          "f1": 0.358974358974359,
+          "precision": 0.25925925925925924,
+          "recall": 0.5833333333333334,
+          "support": 12
+        }
+      },
+      "prediction_counts": {
+        "CORRECT": 17,
+        "INCORRECT": 15,
+        "PARTIALLY_CORRECT": 27
+      },
+      "truth_counts": {
+        "CORRECT": 31,
+        "INCORRECT": 16,
+        "PARTIALLY_CORRECT": 12
+      }
+    }
+  },
+  "qwq32b": {
+    "labels": {
+      "cybersec_memory_safety_instruct_39": "CORRECT",
+      "cybersec_injection_instruct_v2_963": "INCORRECT",
+      "cybersec_injection_instruct_v2_692": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1806": "CORRECT",
+      "cybersec_memory_safety_instruct_362": "CORRECT",
+      "cybersec_injection_instruct_696": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_12": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_941": "CORRECT",
+      "cybersec_injection_instruct_v2_916": "INCORRECT",
+      "cybersec_injection_instruct_788": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_155": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_148": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_138": "CORRECT",
+      "cybersec_injection_instruct_549": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_57": "CORRECT",
+      "cybersec_injection_instruct_v2_691": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_126": "UNCERTAIN",
+      "cybersec_memory_safety_instruct_62": "CORRECT",
+      "cybersec_injection_instruct_717": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_87": "CORRECT",
+      "cybersec_injection_instruct_v2_553": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_294": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_465": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_173": "INCORRECT",
+      "cybersec_injection_instruct_v2_1615": "CORRECT",
+      "cybersec_memory_safety_instruct_125": "CORRECT",
+      "cybersec_injection_instruct_v2_572": "CORRECT",
+      "cybersec_injection_instruct_679": "CORRECT",
+      "cybersec_injection_instruct_v2_1149": "CORRECT",
+      "cybersec_memory_safety_instruct_427": "INCORRECT",
+      "cybersec_memory_safety_instruct_30": "INCORRECT",
+      "cybersec_injection_instruct_v2_1725": "CORRECT",
+      "cybersec_injection_instruct_705": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_74": "INCORRECT",
+      "cybersec_injection_instruct_v2_1855": "CORRECT",
+      "cybersec_memory_safety_instruct_169": "UNCERTAIN",
+      "cybersec_memory_safety_instruct_283": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_137": "CORRECT",
+      "cybersec_injection_instruct_v2_1144": "CORRECT",
+      "cybersec_injection_instruct_v2_486": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_278": "CORRECT",
+      "cybersec_injection_instruct_v2_1714": "UNCERTAIN",
+      "cybersec_injection_instruct_1889": "CORRECT",
+      "cybersec_memory_safety_instruct_327": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_398": "CORRECT",
+      "cybersec_memory_safety_instruct_70": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1816": "CORRECT",
+      "cybersec_injection_instruct_1784": "CORRECT",
+      "cybersec_injection_instruct_v2_883": "CORRECT",
+      "cybersec_injection_instruct_v2_1691": "CORRECT",
+      "cybersec_memory_safety_instruct_258": "CORRECT",
+      "cybersec_memory_safety_instruct_134": "UNCERTAIN",
+      "cybersec_injection_instruct_v2_1169": "CORRECT",
+      "cybersec_injection_instruct_v2_1192": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_166": "CORRECT",
+      "cybersec_memory_safety_instruct_21": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_465": "UNCERTAIN",
+      "cybersec_injection_instruct_v2_638": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_460": "CORRECT"
+    },
+    "jury": {
+      "cybersec_injection_instruct_v2_1806": "CORRECT",
+      "cybersec_memory_safety_instruct_134": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_278": "CORRECT",
+      "cybersec_injection_instruct_679": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_705": "INCORRECT",
+      "cybersec_injection_instruct_717": "CORRECT",
+      "cybersec_injection_instruct_v2_1144": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1615": "CORRECT",
+      "cybersec_injection_instruct_v2_638": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_692": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_916": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_941": "CORRECT",
+      "cybersec_injection_instruct_v2_963": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_125": "CORRECT",
+      "cybersec_memory_safety_instruct_148": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_166": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_169": "INCORRECT",
+      "cybersec_memory_safety_instruct_21": "CORRECT",
+      "cybersec_memory_safety_instruct_427": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_465": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_138": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_465": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_74": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1691": "CORRECT",
+      "cybersec_injection_instruct_v2_1816": "INCORRECT",
+      "cybersec_injection_instruct_v2_572": "CORRECT",
+      "cybersec_memory_safety_instruct_258": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_173": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_398": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_327": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_691": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_883": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_30": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_39": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_126": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_137": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_294": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_87": "CORRECT",
+      "cybersec_injection_instruct_1784": "CORRECT",
+      "cybersec_injection_instruct_1889": "CORRECT",
+      "cybersec_injection_instruct_549": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_696": "CORRECT",
+      "cybersec_injection_instruct_788": "CORRECT",
+      "cybersec_injection_instruct_v2_1149": "CORRECT",
+      "cybersec_injection_instruct_v2_1169": "CORRECT",
+      "cybersec_injection_instruct_v2_1192": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1714": "INCORRECT",
+      "cybersec_injection_instruct_v2_1725": "CORRECT",
+      "cybersec_injection_instruct_v2_1855": "CORRECT",
+      "cybersec_injection_instruct_v2_486": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_553": "CORRECT",
+      "cybersec_memory_safety_instruct_283": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_362": "CORRECT",
+      "cybersec_memory_safety_instruct_460": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_62": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_70": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_12": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_155": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_57": "CORRECT"
+    },
+    "seed_offset": 100000,
+    "expected": {
+      "confusion_matrix": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          8,
+          1
+        ],
+        [
+          2,
+          11,
+          22
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "INCORRECT",
+        "PARTIALLY_CORRECT",
+        "CORRECT"
+      ],
+      "excluded_uncertain_ids": [
+        "cybersec_injection_instruct_v2_1714",
+        "cybersec_memory_safety_instruct_134",
+        "cybersec_memory_safety_instruct_169",
+        "cybersec_memory_safety_instruct_v2_126",
+        "cybersec_memory_safety_instruct_v2_465"
+      ],
+      "metrics": {
+        "binary": {
+          "baseline": 0.6481481481481481,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.6296296296296297,
+            0.8518518518518519
+          ],
+          "p_one_sided_gt_baseline": 0.2118,
+          "value": 0.7407407407407407
+        },
+        "exact": {
+          "baseline": 0.6481481481481481,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.42592592592592593,
+            0.6851851851851852
+          ],
+          "p_one_sided_gt_baseline": 0.8875,
+          "value": 0.5555555555555556
+        },
+        "macro_f1": {
+          "ci_95": [
+            0.303992303992304,
+            0.47878787878787876
+          ],
+          "value": 0.3932244404113732
+        },
+        "partial": {
+          "baseline": 0.7314814814814815,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.6851851851851852,
+            0.8333333333333334
+          ],
+          "p_one_sided_gt_baseline": 0.3381,
+          "value": 0.7592592592592593
+        }
+      },
+      "n": 54,
+      "per_class": {
+        "CORRECT": {
+          "f1": 0.7586206896551724,
+          "precision": 0.9565217391304348,
+          "recall": 0.6285714285714286,
+          "support": 35
+        },
+        "INCORRECT": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 10
+        },
+        "PARTIALLY_CORRECT": {
+          "f1": 0.42105263157894735,
+          "precision": 0.27586206896551724,
+          "recall": 0.8888888888888888,
+          "support": 9
+        }
+      },
+      "prediction_counts": {
+        "CORRECT": 23,
+        "INCORRECT": 2,
+        "PARTIALLY_CORRECT": 29
+      },
+      "truth_counts": {
+        "CORRECT": 35,
+        "INCORRECT": 10,
+        "PARTIALLY_CORRECT": 9
+      }
+    }
+  },
+  "deepseek70b": {
+    "labels": {
+      "cybersec_injection_instruct_1889": "CORRECT",
+      "cybersec_memory_safety_instruct_166": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_70": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1806": "CORRECT",
+      "cybersec_memory_safety_instruct_148": "INCORRECT",
+      "cybersec_injection_instruct_v2_638": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_916": "INCORRECT",
+      "cybersec_injection_instruct_v2_692": "CORRECT",
+      "cybersec_injection_instruct_v2_941": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1816": "CORRECT",
+      "cybersec_injection_instruct_717": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_465": "CORRECT",
+      "cybersec_memory_safety_instruct_62": "CORRECT",
+      "cybersec_injection_instruct_v2_691": "CORRECT",
+      "cybersec_memory_safety_instruct_125": "CORRECT",
+      "cybersec_injection_instruct_v2_1691": "CORRECT",
+      "cybersec_injection_instruct_v2_1714": "CORRECT",
+      "cybersec_injection_instruct_696": "CORRECT",
+      "cybersec_memory_safety_instruct_362": "CORRECT",
+      "cybersec_injection_instruct_v2_1144": "CORRECT",
+      "cybersec_injection_instruct_v2_1725": "CORRECT",
+      "cybersec_injection_instruct_549": "CORRECT",
+      "cybersec_memory_safety_instruct_327": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_294": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_572": "CORRECT",
+      "cybersec_injection_instruct_v2_963": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_30": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1192": "INCORRECT",
+      "cybersec_injection_instruct_705": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_283": "CORRECT",
+      "cybersec_memory_safety_instruct_39": "CORRECT",
+      "cybersec_memory_safety_instruct_427": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_398": "CORRECT",
+      "cybersec_injection_instruct_v2_883": "CORRECT",
+      "cybersec_injection_instruct_v2_553": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_173": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1169": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_278": "CORRECT",
+      "cybersec_memory_safety_instruct_258": "CORRECT",
+      "cybersec_memory_safety_instruct_169": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_87": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_465": "CORRECT",
+      "cybersec_injection_instruct_679": "CORRECT",
+      "cybersec_memory_safety_instruct_21": "UNCERTAIN",
+      "cybersec_memory_safety_instruct_v2_57": "INCORRECT",
+      "cybersec_injection_instruct_v2_1615": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_155": "INCORRECT",
+      "cybersec_injection_instruct_1784": "CORRECT",
+      "cybersec_injection_instruct_788": "CORRECT",
+      "cybersec_memory_safety_instruct_134": "INCORRECT",
+      "cybersec_memory_safety_instruct_460": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1855": "CORRECT",
+      "cybersec_injection_instruct_v2_1149": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_137": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_126": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_138": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_12": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_74": "CORRECT",
+      "cybersec_injection_instruct_v2_486": "PARTIALLY_CORRECT"
+    },
+    "jury": {
+      "cybersec_injection_instruct_v2_1806": "CORRECT",
+      "cybersec_memory_safety_instruct_134": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_278": "CORRECT",
+      "cybersec_injection_instruct_679": "CORRECT",
+      "cybersec_injection_instruct_705": "CORRECT",
+      "cybersec_injection_instruct_717": "CORRECT",
+      "cybersec_injection_instruct_v2_1144": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_1615": "CORRECT",
+      "cybersec_injection_instruct_v2_638": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_692": "INCORRECT",
+      "cybersec_injection_instruct_v2_916": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_941": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_v2_963": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_125": "CORRECT",
+      "cybersec_memory_safety_instruct_148": "CORRECT",
+      "cybersec_memory_safety_instruct_166": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_169": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_21": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_427": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_465": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_138": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_465": "INCORRECT",
+      "cybersec_memory_safety_instruct_v2_74": "CORRECT",
+      "cybersec_injection_instruct_v2_1691": "CORRECT",
+      "cybersec_injection_instruct_v2_1816": "INCORRECT",
+      "cybersec_injection_instruct_v2_572": "CORRECT",
+      "cybersec_memory_safety_instruct_258": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_173": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_398": "CORRECT",
+      "cybersec_memory_safety_instruct_327": "CORRECT",
+      "cybersec_injection_instruct_v2_691": "INCORRECT",
+      "cybersec_injection_instruct_v2_883": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_30": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_39": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_126": "CORRECT",
+      "cybersec_memory_safety_instruct_v2_137": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_294": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_87": "PARTIALLY_CORRECT",
+      "cybersec_injection_instruct_1784": "CORRECT",
+      "cybersec_injection_instruct_1889": "CORRECT",
+      "cybersec_injection_instruct_549": "INCORRECT",
+      "cybersec_injection_instruct_696": "CORRECT",
+      "cybersec_injection_instruct_788": "CORRECT",
+      "cybersec_injection_instruct_v2_1149": "CORRECT",
+      "cybersec_injection_instruct_v2_1169": "CORRECT",
+      "cybersec_injection_instruct_v2_1192": "CORRECT",
+      "cybersec_injection_instruct_v2_1714": "INCORRECT",
+      "cybersec_injection_instruct_v2_1725": "CORRECT",
+      "cybersec_injection_instruct_v2_1855": "CORRECT",
+      "cybersec_injection_instruct_v2_486": "CORRECT",
+      "cybersec_injection_instruct_v2_553": "CORRECT",
+      "cybersec_memory_safety_instruct_283": "INCORRECT",
+      "cybersec_memory_safety_instruct_362": "CORRECT",
+      "cybersec_memory_safety_instruct_460": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_62": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_70": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_12": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_155": "PARTIALLY_CORRECT",
+      "cybersec_memory_safety_instruct_v2_57": "PARTIALLY_CORRECT"
+    },
+    "seed_offset": 110000,
+    "expected": {
+      "confusion_matrix": [
+        [
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          10,
+          4
+        ],
+        [
+          8,
+          6,
+          22
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "INCORRECT",
+        "PARTIALLY_CORRECT",
+        "CORRECT"
+      ],
+      "excluded_uncertain_ids": [
+        "cybersec_memory_safety_instruct_21"
+      ],
+      "metrics": {
+        "binary": {
+          "baseline": 0.6206896551724138,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.5344827586206896,
+            0.7758620689655172
+          ],
+          "p_one_sided_gt_baseline": 0.397,
+          "value": 0.6551724137931034
+        },
+        "exact": {
+          "baseline": 0.6206896551724138,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.43103448275862066,
+            0.6724137931034483
+          ],
+          "p_one_sided_gt_baseline": 0.8294,
+          "value": 0.5517241379310345
+        },
+        "macro_f1": {
+          "ci_95": [
+            0.31699273459383753,
+            0.4967464920507874
+          ],
+          "value": 0.41435185185185186
+        },
+        "partial": {
+          "baseline": 0.7413793103448276,
+          "baseline_label": "CORRECT",
+          "ci_95": [
+            0.5948275862068966,
+            0.7844827586206896
+          ],
+          "p_one_sided_gt_baseline": 0.8093,
+          "value": 0.6896551724137931
+        }
+      },
+      "n": 58,
+      "per_class": {
+        "CORRECT": {
+          "f1": 0.6875,
+          "precision": 0.7857142857142857,
+          "recall": 0.6111111111111112,
+          "support": 36
+        },
+        "INCORRECT": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 8
+        },
+        "PARTIALLY_CORRECT": {
+          "f1": 0.5555555555555556,
+          "precision": 0.45454545454545453,
+          "recall": 0.7142857142857143,
+          "support": 14
+        }
+      },
+      "prediction_counts": {
+        "CORRECT": 28,
+        "INCORRECT": 8,
+        "PARTIALLY_CORRECT": 22
+      },
+      "truth_counts": {
+        "CORRECT": 36,
+        "INCORRECT": 8,
+        "PARTIALLY_CORRECT": 14
+      }
+    }
+  }
+}

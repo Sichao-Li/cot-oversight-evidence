@@ -1,0 +1,20 @@
+{
+  "inference": "data/security/generations_deepseek14b.jsonl",
+  "activation_dir": "not released; recompute with experiments/run_reasoning_span_probe.py",
+  "heldout_manifest": "data/security/heldout59/deepseek14b.jsonl (IDs)",
+  "rows": 200,
+  "direction_fit_rows": 141,
+  "frozen_generation_rows": 59,
+  "fixed_layers": {
+    "identifies_vulnerability": 28,
+    "traces_data_flow": 8,
+    "assesses_exploitability": 28
+  },
+  "layer_selection_disclosure": "Layers 28/8/28 were selected by the original all-200-row CV sweep.",
+  "direction_fit": "class_weighted_logistic_regression_on_mean_pooled_reasoning_span",
+  "direction_normalization": "unit_l2",
+  "ablation": "h <- h - ((h dot d) - train_mean_projection) d",
+  "random_controls_per_step": 5,
+  "random_seed": 20260731,
+  "intervention_conditions": 18
+}

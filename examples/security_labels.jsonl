@@ -1,0 +1,3 @@
+{"id": "cybersec_injection_instruct_v2_1144", "label": "PARTIALLY_CORRECT", "response_sha256": "a490ad5e5518964b300060d941db72cd73a80465e210ace0dd47b21dceb266a9", "source_response_sha256": "0acb4edc85a1b4c980a0a6f6623bafa681276ef8f78c83730544b01a5651b546"}
+{"id": "cybersec_injection_instruct_v2_916", "label": "CORRECT", "response_sha256": "89b2526283724ae73b1855a34a09d0703762a83aa10ee02125c2649b4ba9efc0", "source_response_sha256": "6bf70c4f56f3cfd1d090b2093faf11247c12622f4f440714e10bd1327ad3a590"}
+{"id": "cybersec_memory_safety_instruct_166", "label": "INCORRECT", "response_sha256": "beba36ff45b9d18f31b4d2fceb035949a3ce5f9dc823b0ea72eb7b8789987c9a", "source_response_sha256": "4785886dccf8fd60582c35dfcea88a118c708ac4554e87a03d55961736544c6d"}
